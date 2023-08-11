@@ -53,3 +53,5 @@ Templates:
     33: TagWithId33
 ```
 ### Screenshots
+![Screenshot 1](screens/1.png)
+![Screenshot 2](screens/2.png)
