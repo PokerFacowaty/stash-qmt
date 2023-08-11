@@ -1,0 +1,10 @@
+# Find the docs at github.com/PokerFacowaty/stash-qmt
+API Key:
+Stash URL:
+Templates:
+  SampleTemplate1:
+    - SampleTagName1
+    - SampleTagName2
+  SampleTemplate2:
+    12: TagWithId12
+    33: TagWithId33
