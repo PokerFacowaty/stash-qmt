@@ -1,6 +1,6 @@
 # Find the docs at github.com/PokerFacowaty/stash-qmt
-API Key:
-Stash URL:
+API Key: <your API key>
+Stash URL: <Stash URL ending in /graphql>
 Templates:
   SampleTemplate1:
     - SampleTagName1
