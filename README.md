@@ -1,6 +1,9 @@
 # stash-qmt
-## Use case
+## What is it
 stash-qmt (quick manual tagger) is a simple GUI tool designed to help with cases of manually tagging multiple similar scenes (manually, as in, with having to actually watch them) in [Stash](https://github.com/stashapp/stash).
+
+## Disclaimer, what it isn't
+stash-qmt is **not a stash plugin**. It's a Python app ran separately.
 
 ## How it works
 You can provide stash-qmt with templates - lists of commonly used tags. Pick a template, type in the scene's id and stash-qmt will list down all of the template's tags that are not yet in the scene. Mark the tags you want to add, click "Set tags" and you can move to the next scene!
@@ -10,12 +13,14 @@ You can provide stash-qmt with templates - lists of commonly used tags. Pick a t
 - requests
 - PyYAML
 
-## Installation
-- Download and unpack the source code from the latest release
-- Install dependencies with `pip install pyside6 requests pyyaml`
-  - Make sure to have [pip](https://pip.pypa.io/en/stable/installation/) and/or [Python 3](https://www.python.org/downloads/) installed
+## Installation and running the script
+Make sure to have [pip](https://pip.pypa.io/en/stable/installation/) and [Python 3](https://www.python.org/downloads/) installed. Consider using a virtual environment to install and run the script, here's a [tutorial on them](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/).
+- Download and unpack the source code from the [latest release](https://github.com/PokerFacowaty/stash-qmt/releases/latest)
+- Create and activate a virtual environment (if you decided to use one).
+- Install dependencies with the command `pip install pyside6 requests pyyaml`
+- Run the app with `python3 stash-qmt.py` (or `python` depending on your OS).
 
-## Configuration and use
+## Configuration
 ### Config.yaml
 All configuration is stored in `config.yaml` in the same directory as the actual app.
 If there isn't a `config.yaml` file in the directory, the app will create a sample one once it's running.
